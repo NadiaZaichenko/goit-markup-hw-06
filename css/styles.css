@@ -869,6 +869,7 @@ padding: 0px;
 
 .label-checkbox {
     padding: 20px 12px 30px 13px;
+    position:relative;
 }
 
 .consent {
@@ -894,15 +895,25 @@ padding: 0px;
     height: 15px;
     border: 2px solid #212121;
     border-radius: 3px;
-    background-image: url("data:image/svg+xml, %3Csymbol id='Vector1' viewBox='0 0 42 32'%3E%3Cpath fill='%23fff' stroke='%23fff' stroke-width='.64' d='m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z' style='fill:var(--color1, %23fff);stroke:var(--color1, %23fff)'/%3E%3C/symbol%3E");
-    background-repeat: no-repeat;
-    position: center;
+   
     
 }
 
 .form-checkbox:checked {
     background-color: #188CE8;
-    background-image: url("data:image/svg+xml, %3Csymbol id='icon-checked' viewBox='0 0 42 32'%3E%3Cpath fill='%23fff' stroke='%23fff' stroke-width='.64' d='m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z' style='fill:var(--color1, %23fff);stroke:var(--color1, %23fff)'/%3E%3C/symbol%3E");
+    
+}
+
+
+.icon-checkbox {
+    background-color: #2196F3;
+    border-radius: 2px;
+    position: absolute;
+    top: 22px;
+    left: 13px;
+    
+    opacity: 0;
+
 }
 
 .modal-button {
