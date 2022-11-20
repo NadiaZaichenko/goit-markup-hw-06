@@ -863,12 +863,10 @@ body {
     padding: 0;
     margin: 0;
     padding-bottom: 10px;
-    height: 68px;
 }
 .label:nth-child(4) {
     margin: 0px;
     padding: 0px;
-    height: 138px;
 }
 
 .input-box {
@@ -899,6 +897,7 @@ body {
  }
 
 .label-text {
+    display:block;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
